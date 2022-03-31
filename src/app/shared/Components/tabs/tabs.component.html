@@ -1,0 +1,8 @@
+<ul>
+    <li 
+        *ngFor="let item of tabItems; let itemIndex = index" 
+        [ngClass]="{'active': activeItem === itemIndex}"
+        (click)="toggleTabView(item, itemIndex)">
+        <a>{{item}}</a>
+    </li>
+</ul>

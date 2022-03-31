@@ -1,0 +1,145 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+h1 {
+  margin: 0 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-md-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+.col-md-6 {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+.col-md-3 {
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+}
+.col-md-9 {
+    -webkit-box-flex: 0;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding: 0 15px;
+}
+
+.col-md-2 {
+  -webkit-box-flex: 0;
+  flex: 0 0 16.66%;
+  max-width: 16.66%;
+  padding: 0 15px;
+}
+
+.col-md-10 {
+  -webkit-box-flex: 0;
+  flex: 0 0 83.33%;
+  max-width: 83.33%;
+  padding: 0 15px;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+form {
+  label {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  .form-control {
+    display: block;
+    padding: 9px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    width: 100%;
+  }
+  input {
+    display: block;
+    padding: 9px 12px;
+    font-size: 14px;
+    line-height: 1em;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+  }
+  .row {
+    justify-content: center;
+  }
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 9px 12px;
+  font-size: 16px;
+  line-height: 1.5em;
+  border-radius: 6px;
+  min-width: 120px;
+  &.btn-primary {
+    color: #CFD8DC;
+    background-color: #37474F;
+    border-color: #37474F;
+    &:hover {
+      color: #37474F;
+      background-color: #CFD8DC;
+      border-color: #37474F;
+    }
+  }
+  &.btn-lg {
+    min-width: 220px;
+  }
+  &:disabled {
+    color: #CFD8DC;
+    background-color: #37474F;
+    border-color: #37474F;
+  }
+}
+
+
+
+

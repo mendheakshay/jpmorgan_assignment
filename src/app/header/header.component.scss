@@ -1,0 +1,28 @@
+.header-section {
+    .container {
+      background-color: #263238;
+    }
+  
+    .row {
+      align-items: center;
+      div {
+        padding-top: 20px;
+  
+        &.header-img {
+          max-width: 170px;
+          padding-top: 15px;
+          border-right: 1px solid #455A64;
+          img {
+              max-width: 170px;
+          }
+        }
+  
+        h1 {
+          color: #CFD8DC;
+          margin-left: 20px;
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  

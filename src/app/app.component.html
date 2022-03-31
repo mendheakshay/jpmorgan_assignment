@@ -1,0 +1,17 @@
+<section class="container-fluid">
+  <app-header></app-header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 tabs-container">
+        <app-tabs [tabItems]="items" (selectedItem)="onselectItem($event)"></app-tabs>
+      </div>
+      <div class="col-md-9">
+        <app-flight-search *ngIf="selectedTabItem == 'Flight'"></app-flight-search>
+        <app-hotel-search *ngIf="selectedTabItem == 'Hotel'"></app-hotel-search>
+        <app-car-search *ngIf="selectedTabItem == 'Car'"></app-car-search>
+        <app-activity-search *ngIf="selectedTabItem == 'Activity'"></app-activity-search>
+      </div>
+    </div>
+  </div>
+  <!-- <app-footer></app-footer> -->
+</section>

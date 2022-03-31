@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1",
+    "FlightCode": "AI-101",
+    "airlineName": "Air India",
+    "SeatsAvailable": "3",
+    "class": "Economy",
+    "OriginDestination": { "Origin": "PUNE", "Destination": "BLR", "DeptDate": "2022-03-30", "ArrDate": "2022-03-30", "duration": "1h 30m", "departTime": "10:30", "arrivalTime": "12:00"},
+    "FareDetails": "2000"
+  },
+  {
+    "id": "2",
+    "FlightCode": "AI-102",
+    "airlineName": "IndiGo",
+    "SeatsAvailable": "6",
+    "class": "Business",
+    "OriginDestination": { "Origin": "PUNE", "Destination": "BLR", "DeptDate": "2022-03-30", "ArrDate": "2022-03-30", "duration": "1h 30m", "departTime": "1:30", "arrivalTime": "3:00" },
+    "FareDetails": "2500"
+  },
+  {
+    "id": "3",
+    "FlightCode": "AI-103",
+    "airlineName": "IndiGo",
+    "SeatsAvailable": "15",
+    "class": "Economy",
+    "OriginDestination": { "Origin": "PUNE", "Destination": "MUMBAI", "DeptDate": "2022-03-31", "ArrDate": "2022-03-31", "duration": "1h 30m", "departTime": "11:30", "arrivalTime": "13:00" },
+    "FareDetails": "3000"
+  },
+  {
+    "id": "4",
+    "FlightCode": "AI-104",
+    "airlineName": "Air India",
+    "SeatsAvailable": "10",
+    "class": "Business",
+    "OriginDestination": { "Origin": "PUNE", "Destination": "MUMBAI", "DeptDate": "2022-04-01", "ArrDate": "2022-04-01", "duration": "1h 30m", "departTime": "20:30", "arrivalTime": "22:00" },
+    "FareDetails": "4500"
+  },
+  {
+    "id": "5",
+    "FlightCode": "AI-105",
+    "SeatsAvailable": "10",
+    "airlineName": "IndiGo",
+    "class": "Economy",
+    "OriginDestination": { "Origin": "MUMBAI", "Destination": "PUNE", "DeptDate": "2022-04-01", "ArrDate": "2022-04-01", "duration": "1h 30m", "departTime": "9:30", "arrivalTime": "11:00" },
+    "FareDetails": "1500"
+  },
+  {
+    "id": "6",
+    "FlightCode": "AI-106",
+    "SeatsAvailable": "10",
+    "airlineName": "Air India",
+    "class": "Business",
+    "OriginDestination": { "Origin": "MUMBAI", "Destination": "PUNE", "DeptDate": "2022-04-01", "ArrDate": "2022-04-01", "duration": "1h 30m", "departTime": "22:30", "arrivalTime": "00:00" },
+    "FareDetails": "3200"
+  },
+  {
+    "id": "7",
+    "FlightCode": "AI-107",
+    "SeatsAvailable": "10",
+    "airlineName": "IndiGo",
+    "class": "Economy",
+    "OriginDestination": { "Origin": "MUMBAI", "Destination": "BLR", "DeptDate": "2022-04-01", "ArrDate": "2022-04-01", "duration": "1h 30m", "departTime": "8:30", "arrivalTime": "10:00"},
+    "FareDetails": "1400"
+  },
+  {
+    "id": "8",
+    "FlightCode": "AI-108",
+    "SeatsAvailable": "10",
+    "airlineName": "Air India",
+    "class": "Economy",
+    "OriginDestination": { "Origin": "BLR", "Destination": "MUMBAI", "DeptDate": "2022-04-01", "ArrDate": "2022-04-01", "duration": "1h 30m", "departTime": "14:30", "arrivalTime": "16:00"},
+    "FareDetails": "1300"
+  },
+  {
+    "id": "9",
+    "FlightCode": "AI-109",
+    "SeatsAvailable": "10",
+    "airlineName": "IndiGo",
+    "class": "Business",
+    "OriginDestination": { "Origin": "BLR", "Destination": "MUMBAI", "DeptDate": "2022-04-01", "ArrDate": "2022-04-01", "duration": "1h 30m", "departTime": "16:30", "arrivalTime": "18:00" },
+    "FareDetails": "3700"
+  },
+  {
+    "id": "10",
+    "FlightCode": "AI-110",
+    "SeatsAvailable": "10",
+    "airlineName": "Air India",
+    "class": "Economy",
+    "OriginDestination": { "Origin": "BLR", "Destination": "PUNE", "DeptDate": "2022-04-01", "ArrDate": "2022-04-01" , "duration": "1h 30m", "departTime": "18:00", "arrivalTime": "19:30"},
+    "FareDetails": "1500"
+  },
+  {
+    "id": "11",
+    "FlightCode": "AI-111",
+    "SeatsAvailable": "10",
+    "airlineName": "IndiGo",
+    "class": "Business",
+    "OriginDestination": { "Origin": "BLR", "Destination": "PUNE", "DeptDate": "2022-04-01", "ArrDate": "2022-04-01" , "duration": "1h 30m", "departTime": "20:00", "arrivalTime": "21:30"},
+    "FareDetails": "3350"
+  }
+]

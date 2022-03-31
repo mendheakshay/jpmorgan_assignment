@@ -1,0 +1,87 @@
+<div class="flight-details-wrapper">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Flight Search Results: {{flightSearchData.length}}</h2>
+    </div>
+  </div>
+
+  <div class="flight-search-table">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Flight Name</th>
+          <th>Flight No.</th>
+          <th>Departure</th>
+          <th>Arrival</th>
+          <th>Duration</th>
+          <th>Fare</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of flightSearchData">
+          <td>
+            <div class="airline-details">
+              <span class="icon" [ngClass]="item.airlineName"></span>
+              <span class="airline-text font-16">{{item.airlineName}}</span>
+            </div>
+          </td>
+          <td class="font-16">{{item.FlightCode}}</td>
+          <td>
+            <div class="font-16">{{item.OriginDestination.departTime}}</div>
+            <div>{{item.OriginDestination.Origin}}</div>
+          </td>
+          <td>
+            <div class="font-16">{{item.OriginDestination.arrivalTime}}</div>
+            <div>{{item.OriginDestination.Destination}}</div>
+          </td>
+          <td class="font-16">{{item.OriginDestination.duration}}</td>
+          <td class="font-16">{{item.FareDetails}}</td>
+          <td><button class="btn btn-primary">Book</button></td>
+        </tr>
+      </tbody>
+      <!-- <tbody>
+        <tr>
+          <td>
+            <div class="airline-details">
+              <span class="icon indigo"></span>
+              <span class="airline-text font-16">IndiGo</span>
+            </div>
+          </td>
+          <td class="font-16">AI-110</td>
+          <td>
+            <div class="font-16">12:30</div>
+            <div>Pune</div>
+          </td>
+          <td>
+            <div class="font-16">14:00</div>
+            <div>BLR</div>
+          </td>
+          <td class="font-16">1h 30m</td>
+          <td class="font-16">3500</td>
+          <td><button class="btn btn-primary">Book</button></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="airline-details">
+              <span class="icon india"></span>
+              <span class="airline-text">Air India</span>
+            </div>
+          </td>
+          <td>AI-110</td>
+          <td>
+            <div>12:30</div>
+            <div>Pune</div>
+          </td>
+          <td>
+            <div>14:00</div>
+            <div>BLR</div>
+          </td>
+          <td>1h 30m</td>
+          <td>3500</td>
+          <td><button class="btn btn-primary">Book</button></td>
+        </tr>
+      </tbody> -->
+    </table>
+  </div>
+</div>

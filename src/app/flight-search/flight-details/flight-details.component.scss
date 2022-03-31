@@ -1,0 +1,55 @@
+.flight-details-wrapper {
+    .flight-search-table {
+      table {
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        border-collapse: collapse;
+        thead {
+          th {
+            vertical-align: middle;
+            border: 0;
+            text-align: left;
+            padding: 10px 15px;
+          }
+        }
+        tbody {
+          tr {
+            border: 1px solid #37474F;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            td {
+              vertical-align: middle;
+              border: 0;
+              text-align: left;
+              padding: 10px 15px;
+            }
+            .font-16 {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .icon {
+        background-color: transparent;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin: 0;
+        &.IndiGo {
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          margin-right: 10px;
+          background-image: url("../../../assets/images/icon_indigo.png");
+        }
+        &.India {
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          margin-right: 10px;
+          background-image: url("../../../assets/images/icon_air_india.png");
+        }
+      }
+    }
+}

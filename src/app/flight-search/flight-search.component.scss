@@ -1,0 +1,18 @@
+.container-inner {
+  margin: 30px;
+  .flight-search-form-container {
+    max-width: 450px;
+    padding: 25px 60px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    form {
+      .row {
+        margin-bottom: 15px;
+        &.btn-submit-section {
+          text-align: center;
+          margin-top: 35px;
+        }
+      }
+    }
+  }
+}
